@@ -1,0 +1,161 @@
+@import url(fonts.css);
+
+* {
+    font-family: 'Roboto_Regular';
+    font-family: 'RobotoSlab_Regular';
+    font-family: 'Montserrat_Regular';
+}
+
+.slider_message {
+    position: relative;
+    z-index: 10000;
+    color: #FFF;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.45);
+    bottom: 40px;
+    text-align: center;
+}
+
+.slider_message p, .slider_message a {
+    color: white;
+}
+
+.slider_message input {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px white;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.slider_message .btn-u {
+    width: 100%;
+    font-size: 16px;
+}
+
+.shopping-cart .billing-info-inputs {
+    clear: both;
+    border-radius: 1em;
+}
+
+.shopping-cart .billing-info-inputs {
+    padding: 20px;
+    border: 3px solid #137D3B;
+}
+
+
+.shopping-cart .billing-info-inputs .form-control::-webkit-input-placeholder {
+    color: #cacaca;
+}
+
+.shopping-cart .billing-info-inputs .form-control:-moz-placeholder { /* Firefox 18- */
+    color: #cacaca;  
+}
+
+.shopping-cart .billing-info-inputs .form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #cacaca;  
+}
+
+.shopping-cart .billing-info-inputs .form-control:-ms-input-placeholder {  
+    color: #cacaca;  
+}
+
+.shopping-cart .billing-info-inputs input.error {
+    border-color: red;
+}
+
+.shopping-cart .billing-info-inputs label.error {
+    color: red;
+}
+
+/*duplicate bootstrap to get applied on top*/
+.shopping-cart .billing-info-inputs .has-success input {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+/*override of bootstrap*/
+.form-control-feedback {
+    width: 60px;
+}
+
+.frecuencia {
+    padding: 1em 0em 0em 2em;
+}
+
+.titulo{
+    font-size: 35px!important;
+    font-family: 'RobotoSlab_Regular'!important;
+}
+
+.sub_titulo{
+    font-size: 20px!important;
+    font-family: "Montserrat_Regular";
+}
+
+#montoDonacion 
+{	
+    font-family: "Montserrat_Regular";
+}
+
+.revolution-ch1 {
+    font-family: 'Roboto_Regular';
+    font-size: 25px!important;
+}
+
+.titulo_2{
+    text-transform: none!important;
+    font-family: 'RobotoSlab_Regular'!important;
+    font-weight: bold;
+    font-size: 18px!important;
+    color: #000;
+}
+
+.btn-u.btn-u-sea-shop {
+    background: #137D3B;
+    border-radius: 3px;
+    font-family: 'RobotoSlab_Regular';
+}
+
+
+.btn-u.btn-u-sea-shop:hover {
+    background: #137d3bc9;
+    border-radius: 10px;
+}
+
+.header .navbar-nav > li > a {
+    color: #00722b;
+    font-size: 16px;
+    text-transform: none;
+    font-family: 'RobotoSlab_Regular';
+}
+
+.header .navbar-nav > li > a:hover, .header .navbar-nav > .active > a {
+    border-bottom: none;
+    color: #00722b;
+}
+    
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+    
+    
+    @media(min-width: 768px) { 
+        .slider_message {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .slider_message input {
+            width: 60%;
+        }
+
+        .slider_message .btn-u {
+            width: 60%;
+        }
+    }

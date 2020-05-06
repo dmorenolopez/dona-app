@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoSlab_Regular';
+    src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat_Regular';
+    src: url('../fonts/Montserrat-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}

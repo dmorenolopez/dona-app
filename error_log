@@ -1,0 +1,24 @@
+[16-Dec-2019 04:53:03 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 35
+[18-Dec-2019 20:01:05 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 35
+[20-Dec-2019 13:58:20 UTC] PHP Notice:  Undefined index: authorization_code in /home/hogaresc/public_html/hogaresclubmichin.org/dona/guardar_pago_datos.php on line 16
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: nombre in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 50
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: inicio in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 51
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 52
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: id in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 53
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: frecuencia in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 54
+[20-Dec-2019 13:59:04 UTC] PHP Notice:  Undefined index: plan in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 55
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: nombre in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 50
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: inicio in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 51
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 52
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: id in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 53
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: frecuencia in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 54
+[20-Jan-2020 10:48:48 UTC] PHP Notice:  Undefined index: plan in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 55
+[31-Jan-2020 16:32:07 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/hogaresclubmichin.org/dona/dona.php on line 52
+[20-Feb-2020 21:01:25 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaRecurrente.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 207
+[20-Feb-2020 21:01:26 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaRecurrente.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 207
+[20-Feb-2020 21:01:28 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaDonante.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 242
+[20-Feb-2020 21:01:28 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaDonante.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 242
+[20-Feb-2020 21:01:28 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/fundacionmichin.org/dona/dona.php on line 52
+[20-Feb-2020 21:03:11 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaRecurrente.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 207
+[20-Feb-2020 21:03:12 UTC] PHP Warning:  file_get_contents(../envioMensajeDonacion/notifDonaDonante.xhtml): failed to open stream: No such file or directory in /home/hogaresc/public_html/fundacionmichin.org/dona/guardar_donacion_recurrente.php on line 242
+[20-Feb-2020 21:03:13 UTC] PHP Notice:  Undefined index: fin in /home/hogaresc/public_html/fundacionmichin.org/dona/dona.php on line 52
