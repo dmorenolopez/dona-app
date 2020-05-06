@@ -89,7 +89,7 @@
 	<section id="dona" class="margin-bottom-40">
 		<div class="container">
 			<div class="title-v1">
-				<h2 class="titulo">Título de la página de doanciones</h2>
+				<h2 class="titulo">Título de la página de donaciones</h2>
 				<p class="sub_titulo">Descripción de la plataforma</br>
 					<br> Segunda línea con la descripción</p>
 			</div>
@@ -148,10 +148,10 @@
 					</div>
 					 <div class="col-sm-12" id="txt_recurrente_donacion">
 									<br>
-                                        <p class="alert alert-success js-donacion_recurrente" style="clear:both;"><i class="glyphicon glyphicon-lock"></i><strong>Sitio Seguro</strong> <br>Esta página cuenta con un certificado de seguridad que hace que tu información esté mucho más segura.</p>
+                                        <p class="alert alert-success js-donacion_recurrente" style="clear:both;"><i class="glyphicon glyphicon-lock"></i><strong>Seguridad</strong> <br>Nuestra página cuenta con certificado SSL el cual garantiza la seguridad en la transacción.</p>
                                     </div>
 					<div class="col-sm-12" id="txt_recurrente_donacion">
-						<p class="alert alert-success js-donacion_recurrente" style="clear:both;">La opción de donación recurrente sólo es posible de momento con las principales tarjetas de crédito: <strong>Visa, Amex, Mastercard, Diners y Discover</strong>.</br> Si sólo dispones de otro medio de pago, todavía puedes ayudar eligiendo donación puntual.</p>
+						<p class="alert alert-success js-donacion_recurrente" style="clear:both;">La opción de donación freceunte solo es posible con <strong>tarjetas de crédito.</strong>.</br> En el caso de PSE solo es posible hacer una domación única.</p>
 					</div>
 					<div class="clearfix"></div>
 					<h2 class="title-type">Por favor ingresa la siguiente información</h2>
@@ -160,21 +160,21 @@
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="name">Nombre</label>
-								<input type="text" class="form-control" name="name" id="name" placeholder="Juan" required>
+								<input type="text" class="form-control" name="name" id="name" placeholder="Pedro" required>
 							</div>
 							<div class="form-group col-sm-6">
 								<label for="lastname">Apellidos</label>
-								<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Rodriguez" required>
+								<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Pérez" required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="email">Correo electrónico</label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
+								<input type="email" class="form-control" name="email" id="email" placeholder="pedro@example.com" required>
 							</div>
 							<div class="form-group col-sm-6">
 								<label for="phone">Teléfono</label>
-								<input type="text" class="form-control" name="phone" id="phone" placeholder="3823323223" required>
+								<input type="text" class="form-control" name="phone" id="phone" placeholder="3214567890" required>
 							</div>
 						</div>
 						<div id="donacion_recurrente">
@@ -185,14 +185,14 @@
 									<input type="text" class="form-control" name="cc_name" id="cc_name" placeholder="" required>
 								</div>								
 								<div class="form-group col-sm-6 has-feedback js-donacion_recurrente">
-									<label for="cc_number">Número tarjeta credito</label>
+									<label for="cc_number">Número de tarjeta credito</label>
 									<input type="text" class="form-control" name="cc_number" id="cc_number" placeholder="" maxlength="30" minlength="5" required>
 									<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
 								</div>							
 							</div>
 							<div class="row">
 								<div class="form-group col-sm-6 js-donacion_recurrente">
-									<label for="cc_document">Número de cédula de ciudadanía</label>
+									<label for="cc_document">Número de documento de identidad</label>
 									<input type="text" class="form-control" name="cc_document" id="cc_document" placeholder="" required>
 								</div>								
 								<div class="form-group col-sm-2 js-donacion_recurrente">
@@ -224,7 +224,7 @@
 						<div class="row tam_campo">
 							<div class="form-group col-sm-6">
 									<label for="country">País</label>
-									<input type="input" class="form-control" name="country" id="country" placeholder="Colombia" required>
+									<input type="input" class="form-control" name="country" id="country" placeholder="Ingrese su país" required>
 								</div>
 								<div class="form-group col-sm-6">
 									<label for="certificado" required>Desea un certificado de donación</label>
@@ -243,7 +243,7 @@
 					<button type="submit" class="btn-u btn-u-sea-shop btn-u-lg" onclick="ga('send', 'event', 'pagina donaciones', 'click', 'boton_dona')">Dona</button><br>
 					 <br><p class="alert alert-success js-donacion_recurrente">
 								<a href="https://www.payulatam.com/blog/dico-velit-delicata-vel-ealia-modus-cum-altera-copiosae/" target="_blank"><img src="https://ecommerce.payulatam.com/logos/PayU_107x51.png" alt="PayU" border="0" /></a><br>
-								El pago se realiza de forma segura a través de la plataforma PayU, especializada en este tipo de transacciones.<br>Para tu mayor seguridad, no almacenamos ningún dato financiero en nuestros servidores.</p>
+								El pago se realiza de forma segura a través de la plataforma PayU.<br>No se almacenarán tus información financiera en ninguna base de datos.</p>
 				</div>
 			</div>
 		</form>

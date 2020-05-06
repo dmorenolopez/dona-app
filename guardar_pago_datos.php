@@ -151,17 +151,17 @@
 	//~ FIN
 	//~ ---------------------------------------------			
 		
-		$web 				 	= 'https://hogaresclubmichin.org/dona/dona.php';
-		$myemail  				= "donativos@hogaresclubmichin.com";
+		$web 				 	= 'https://sutitio.org/dona/dona.php';
+		$myemail  				= "shoesoffsas@gmail.com";
 		$myemail2  				= $email; 
 		
-		$emailsBCC = array( 'administracion@socialmass.co'
-						, 'lindeliaps@socialmass.co ');	
+		$emailsBCC = array( 'shoesoffsas@gmail.com'
+						, 'shoesoffsas@gmail.com');	
 
 		
 		// email subject
-		$subject_admin   = "Club Michin > Alguien ha hecho una nueva donación";
-		$subject_donante = "Club Michin > Gracias por tu Donación";
+		$subject_admin   = "Nombre de fundación> Alguien ha hecho una nueva donación";
+		$subject_donante = "Nombre de fundación > Gracias por tu Donación";
 
 // success email message for admin		
 		$message_success_admin = file_get_contents ("../envioMensajeDonacion/notifDona.xhtml");

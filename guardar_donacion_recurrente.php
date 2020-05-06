@@ -191,17 +191,17 @@
 		//~ FIN
 		//~ ---------------------------------------------
 		
-			$web 				= 'https://www.hogaresclubmichin.org/dona/dona.php';
-			$myemail  		= "donativos@hogaresclubmichin.com"; 
-			//$myemail  			= "lipolsan@gmail.com"; 
+			$web 				= 'https://www.misitio.org/dona/dona.php';
+			$myemail  		= "correo@misitio.com"; 
+			//$myemail  			= "shoesoffsas@gmail.com"; 
 			$myemail2  			= $email;
 			
-			$emailsBCC		= array('administracion@socialmass.co'
-									,'lindeliaps@socialmass.co ');	 
+			$emailsBCC		= array('shoesoffsas@gmail.com'
+									,'correo@misitio.com ');	 
 			 		
 			// email subject
-			$subject_admin   = "Club Michin > Alguien ha hecho una nurva donación";
-			$subject_donante   = "Club Michin> Gracias por tu donación";
+			$subject_admin   = "Nombre de la fundación> Alguien ha hecho una nurva donación";
+			$subject_donante   = "Nombre de la fundación> Gracias por tu donación";
 
 			//~ envío de mensaje a la organización con el detalle de la donación
 			$message_success_admin = file_get_contents ("../envioMensajeDonacion/notifDonaRecurrente.xhtml");
